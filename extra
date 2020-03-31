@@ -16,3 +16,19 @@ Block Level
 h1 p div nav
 Inline Element
 span a img
+
+Id
+Class
+
+12 Grid
+
+xl
+md
+sm
+xs
+
+success
+primary
+danger
+warning
+info

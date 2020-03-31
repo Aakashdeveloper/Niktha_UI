@@ -16,24 +16,66 @@
         <div>
             <form action="" method="">
                 <div>
-                    <label>FirstName</label>
+                    <label for="fname">FirstName</label>
                     <input type="text" required
-                    value="John">
+                    id="fname"
+                    value="John"
+                    name="first">
                 </div>  
                 <div>
-                    <label>LastName</label>
-                    <input type="text">
+                    <label for="lname">LastName</label>
+                    <input type="text"
+                    id="lname"
+                    name="last">
                 </div> 
                 <div>
                     <label>Email</label>
                     <input type="Email"
-                    placeholder="a@a.com">
+                    placeholder="a@a.com"
+                    name="email">
                 </div> 
                 <div>
                     <label>Password</label>
                     <input type="password"
-                    minlength="8">
-                </div> 
+                    minlength="8"
+                    name="pwd">
+                </div>
+                <div>
+                    <label>Date</label>
+                    <input type="date"
+                    name="date"/>
+                </div>
+                <div>
+                    <label>File</label>
+                    <input type="file"
+                    name="file"/>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" value="female" name="gender"/>Female
+                    </label>
+                    <label>
+                        <input type="radio" value="male" name="gender"/>Male
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" value="javascript"/>JavaScript
+                    </label>
+                    <label>
+                        <input type="checkbox" value="React"/>React
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Angular"/>Angular
+                    </label>
+                </div>
+                <div>
+                    <select>
+                        <option value="window">Window</option>
+                        <option value="linux">Linux</option>
+                        <option value="mac">Mac</option>
+                    </select>
+                </div>
                 <button type="submit">
                     Submit
                 </button>

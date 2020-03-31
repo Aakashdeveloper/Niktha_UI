@@ -1,0 +1,85 @@
+@font-face{
+    font-family: myfont;
+    src:url(MeathFLF.tff);
+}
+
+.heading{
+    text-align: center;
+    color:steelblue;
+    margin-top:1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topic{
+    height: 280px;
+    width:300px;
+    float: left;
+    border: 5px groove #008080;
+    margin-left:15px;
+    overflow:scroll;
+    box-shadow: 10px 10px #f2c8c8;
+    border-radius: 10%;
+    background:thistle;
+    color:white;
+    padding: 10px;
+    /*overflow: hidden;*/
+}
+
+.topic-heading{
+    text-align: center;
+    color:blueviolet;
+}
+
+.secondline{
+    margin-top:20px;
+    background:skyblue;
+   
+}
+
+.secondline h2{
+    color:gray
+}
+
+.secondline p{
+    color:#000;
+}
+
+body{
+    /*background:lightgreen;
+    background-image:url('../html/images/download.jpeg')*/
+    background-image:linear-gradient(thistle,lightgreen,#87ceeb);
+    -o-background-image:linear-gradient(thistle,lightgreen,#87ceeb);
+    -moz-background-image:linear-gradient(thistle,lightgreen,#87ceeb);
+    -webkit-background-image:linear-gradient(thistle,lightgreen,#87ceeb);
+    
+}
+
+.topic:hover{
+    transform: scale(1.1,1.1)
+}
+
+@media screen and (min-width:400px){
+    body{
+        background:olive
+    }
+}
+@media screen and (min-width:800px){
+    body{
+        background:tan
+    }
+}
+
+@media screen and (min-width:1000px){
+    body{
+        background-image:linear-gradient(thistle,lightgreen,#87ceeb);
+    }
+}
+
+
+/*
+solid
+dotted
+dashed
+double
+groove
+*/
